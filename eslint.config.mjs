@@ -10,6 +10,7 @@ export default antfu({
     semi: true,
     quotes: "double",
   },
+  ignores: [".pnpm-store/*"],
 }, {
   rules: {
     "ts/no-redeclare": "off",
